@@ -6,3 +6,9 @@ run: all
 
 clean:
 	docker compose run -w /work/src --rm app make clean
+
+xhost-add:
+	xhost +local:root
+
+xhost-remove:
+	xhost -

@@ -2,8 +2,8 @@ version: "3.9"
 services:
   app:
     build: .
-    image: gtk3-c-dev:latest
-    container_name: gtk3-c-dev
+    image: gtk4-c-dev:latest
+    container_name: gtk4-c-dev
     environment:
       - DISPLAY=${DISPLAY}
       - QT_X11_NO_MITSHM=1
