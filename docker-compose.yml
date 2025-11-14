@@ -14,5 +14,3 @@ services:
     user: "${UID}:${GID}"
     extra_hosts:
       - "host.docker.internal:host-gateway"
-    # 必要ならネットワークやデバッグ用に
-    # network_mode: host

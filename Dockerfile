@@ -1,7 +1,6 @@
 FROM debian:bookworm-slim
 
 ENV DEBIAN_FRONTEND=noninteractive
-# 基本ツール + GTK3 開発ヘッダ
 RUN apt-get update && apt-get install -y --no-install-recommends \
     build-essential gcc pkg-config meson ninja-build \
     libgtk-4-dev libglib2.0-dev gtk-4-examples libpango1.0-dev libatk1.0-dev libcairo2-dev \
