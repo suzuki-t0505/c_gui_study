@@ -37,10 +37,39 @@
               </object>
             </child>
             <child>
-              <object id="text" class="GtkTextView">
+              <object class="GtkLabel">
+                <property name="label">Title</property>
                 <layout>
                   <property name="column">0</property>
                   <property name="row">2</property>
+                  <property name="column-span">1</property>
+                </layout> 
+              </object>
+            </child>
+            <child>
+              <object id="title_input" class="GtkEntry">
+                <layout>
+                  <property name="column">1</property>
+                  <property name="row">2</property>
+                  <property name="column-span">1</property>
+                </layout>
+              </object>
+            </child>
+            <child>
+              <object class="GtkLabel">
+                <property name="label">date</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="row">3</property>
+                  <property name="column-span">1</property>
+                </layout> 
+              </object>
+            </child>
+            <child>
+              <object id="date_input" class="GtkEntry">
+                <layout>
+                  <property name="column">1</property>
+                  <property name="row">3</property>
                   <property name="column-span">1</property>
                 </layout>
               </object>
@@ -50,9 +79,29 @@
                 <property name="label">Submit</property>
                 <layout>
                   <property name="column">1</property>
-                  <property name="row">2</property>
+                  <property name="row">4</property>
                   <property name="column-span">1</property>
                 </layout>
+              </object>
+            </child>
+            <child>
+              <object id="title_label" class="GtkLabel">
+                <property name="label">aaaaa</property>
+                <layout>
+                  <property name="column">0</property>
+                  <property name="row">6</property>
+                  <property name="column-span">2</property>
+                </layout> 
+              </object>
+            </child>
+            <child>
+              <object id="date_label" class="GtkLabel">
+                <property name="label">bbbbbbbb</property>
+                <layout>
+                  <property name="column">2</property>
+                  <property name="row">6</property>
+                  <property name="column-span">2</property>
+                </layout> 
               </object>
             </child>
           </object>
